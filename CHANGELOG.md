@@ -2,6 +2,283 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+<a name="0.5.1-rc.1"></a>
+## [0.5.1-rc.1](https://github.com/SAP/fundamental-styles/compare/v0.5.1-rc.0...v0.5.1-rc.1) (2020-01-27)
+
+
+
+<a name="0.5.1-rc.0"></a>
+## [0.5.1-rc.0](https://github.com/SAP/fundamental-styles/compare/v0.5.0...v0.5.1-rc.0) (2020-01-22)
+
+
+
+<a name="0.5.0"></a>
+# [0.5.0](https://github.com/SAP/fundamental-styles/compare/v0.5.0-rc.2...v0.5.0) (2020-01-20)
+
+
+
+<a name="0.5.0-rc.2"></a>
+# [0.5.0-rc.2](https://github.com/SAP/fundamental-styles/compare/v0.5.0-rc.1...v0.5.0-rc.2) (2020-01-20)
+
+
+### Features
+
+* token and tokenizer ([#500](https://github.com/SAP/fundamental-styles/issues/500)) ([9eb0c7e](https://github.com/SAP/fundamental-styles/commit/9eb0c7e))
+
+
+
+<a name="0.5.0-rc.1"></a>
+# [0.5.0-rc.1](https://github.com/SAP/fundamental-styles/compare/v0.4.1...v0.5.0-rc.1) (2020-01-20)
+
+
+### Bug Fixes
+
+* form messages margin fix for textarea ([#591](https://github.com/SAP/fundamental-styles/issues/591)) ([50c19e9](https://github.com/SAP/fundamental-styles/commit/50c19e9))
+* Match link and breadcrumb to fiori3 ([#475](https://github.com/SAP/fundamental-styles/issues/475)) ([1e8be78](https://github.com/SAP/fundamental-styles/commit/1e8be78))
+* section lines added according to Fiori 3  ([#488](https://github.com/SAP/fundamental-styles/issues/488)) ([a04d6eb](https://github.com/SAP/fundamental-styles/commit/a04d6eb))
+* update modal docs to remove .modal-demo-bg ([#593](https://github.com/SAP/fundamental-styles/issues/593)) ([11b7208](https://github.com/SAP/fundamental-styles/commit/11b7208))
+
+
+### Features
+
+* Adjust tabs to fiori3 specification ([#471](https://github.com/SAP/fundamental-styles/issues/471)) ([f79aa7c](https://github.com/SAP/fundamental-styles/commit/f79aa7c))
+* toggle follow fiori3 ([#492](https://github.com/SAP/fundamental-styles/issues/492)) ([a4c40a3](https://github.com/SAP/fundamental-styles/commit/a4c40a3))
+
+
+
+<a name="0.5.0-rc.0"></a>
+# [0.5.0-rc.0](https://github.com/SAP/fundamental-styles/compare/v0.4.1...v0.5.0-rc.0) (2020-01-18)
+
+
+### Bug Fixes
+
+* Match link and breadcrumb to fiori3 ([#475](https://github.com/SAP/fundamental-styles/issues/475)) ([1e8be78](https://github.com/SAP/fundamental-styles/commit/1e8be78))
+* section lines added according to Fiori 3  ([#488](https://github.com/SAP/fundamental-styles/issues/488)) ([a04d6eb](https://github.com/SAP/fundamental-styles/commit/a04d6eb))
+* update modal docs to remove .modal-demo-bg ([#593](https://github.com/SAP/fundamental-styles/issues/593)) ([11b7208](https://github.com/SAP/fundamental-styles/commit/11b7208))
+
+
+### Features
+
+* Adjust tabs to fiori3 specification ([#471](https://github.com/SAP/fundamental-styles/issues/471)) ([f79aa7c](https://github.com/SAP/fundamental-styles/commit/f79aa7c))
+* toggle follow fiori3 ([#492](https://github.com/SAP/fundamental-styles/issues/492)) ([a4c40a3](https://github.com/SAP/fundamental-styles/commit/a4c40a3))
+
+
+
+<a name="0.4.1"></a>
+## [0.4.1](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.11...v0.4.1) (2020-01-16)
+
+
+
+<a name="0.4.1-rc.11"></a>
+## [0.4.1-rc.11](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.10...v0.4.1-rc.11) (2020-01-16)
+
+
+
+<a name="0.4.1-rc.10"></a>
+## [0.4.1-rc.10](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.9...v0.4.1-rc.10) (2020-01-15)
+
+
+
+<a name="0.4.1-rc.9"></a>
+## [0.4.1-rc.9](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.8...v0.4.1-rc.9) (2020-01-15)
+
+
+### Bug Fixes
+
+* Align side-nav navigation arrow on IE11 ([#490](https://github.com/SAP/fundamental-styles/issues/490)) ([4011bab](https://github.com/SAP/fundamental-styles/commit/4011bab))
+
+
+
+<a name="0.4.1-rc.8"></a>
+## [0.4.1-rc.8](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.7...v0.4.1-rc.8) (2020-01-15)
+
+
+
+<a name="0.4.1-rc.7"></a>
+## [0.4.1-rc.7](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.6...v0.4.1-rc.7) (2020-01-11)
+
+
+
+<a name="0.4.1-rc.6"></a>
+## [0.4.1-rc.6](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.5...v0.4.1-rc.6) (2020-01-11)
+
+
+
+<a name="0.4.1-rc.5"></a>
+## [0.4.1-rc.5](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.4...v0.4.1-rc.5) (2020-01-10)
+
+
+
+<a name="0.4.1-rc.4"></a>
+## [0.4.1-rc.4](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.3...v0.4.1-rc.4) (2020-01-09)
+
+
+
+<a name="0.4.1-rc.3"></a>
+## [0.4.1-rc.3](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.2...v0.4.1-rc.3) (2020-01-07)
+
+
+
+<a name="0.4.1-rc.2"></a>
+## [0.4.1-rc.2](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.1...v0.4.1-rc.2) (2020-01-02)
+
+
+
+<a name="0.4.1-rc.1"></a>
+## [0.4.1-rc.1](https://github.com/SAP/fundamental-styles/compare/v0.4.1-rc.0...v0.4.1-rc.1) (2019-12-27)
+
+
+
+<a name="0.4.1-rc.0"></a>
+## [0.4.1-rc.0](https://github.com/SAP/fundamental-styles/compare/v0.4.0...v0.4.1-rc.0) (2019-12-26)
+
+
+
+<a name="0.4.0"></a>
+# [0.4.0](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.44...v0.4.0) (2019-12-20)
+
+
+
+<a name="0.4.0-rc.44"></a>
+# [0.4.0-rc.44](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.43...v0.4.0-rc.44) (2019-12-20)
+
+
+
+<a name="0.4.0-rc.43"></a>
+# [0.4.0-rc.43](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.42...v0.4.0-rc.43) (2019-12-20)
+
+
+### Features
+
+* checkbox and radio pseudo elements ([#546](https://github.com/SAP/fundamental-styles/issues/546)) ([65a123c](https://github.com/SAP/fundamental-styles/commit/65a123c))
+
+
+
+<a name="0.4.0-rc.42"></a>
+# [0.4.0-rc.42](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.41...v0.4.0-rc.42) (2019-12-20)
+
+
+
+<a name="0.4.0-rc.41"></a>
+# [0.4.0-rc.41](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.40...v0.4.0-rc.41) (2019-12-20)
+
+
+
+<a name="0.4.0-rc.40"></a>
+# [0.4.0-rc.40](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.39...v0.4.0-rc.40) (2019-12-20)
+
+
+
+<a name="0.4.0-rc.39"></a>
+# [0.4.0-rc.39](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.38...v0.4.0-rc.39) (2019-12-20)
+
+
+### Bug Fixes
+
+* Remove flex property from input-message-group IE11 ([#542](https://github.com/SAP/fundamental-styles/issues/542)) ([faf875b](https://github.com/SAP/fundamental-styles/commit/faf875b))
+
+
+
+<a name="0.4.0-rc.38"></a>
+# [0.4.0-rc.38](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.37...v0.4.0-rc.38) (2019-12-20)
+
+
+### Bug Fixes
+
+* Add focus state to input group ([#540](https://github.com/SAP/fundamental-styles/issues/540)) ([d48ba72](https://github.com/SAP/fundamental-styles/commit/d48ba72))
+
+
+
+<a name="0.4.0-rc.37"></a>
+# [0.4.0-rc.37](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.36...v0.4.0-rc.37) (2019-12-20)
+
+
+### Bug Fixes
+
+* Can write inside disabled input ([#537](https://github.com/SAP/fundamental-styles/issues/537)) ([ff433d7](https://github.com/SAP/fundamental-styles/commit/ff433d7))
+
+
+
+<a name="0.4.0-rc.36"></a>
+# [0.4.0-rc.36](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.35...v0.4.0-rc.36) (2019-12-19)
+
+
+### Bug Fixes
+
+* input-group-pickers ([#539](https://github.com/SAP/fundamental-styles/issues/539)) ([6872819](https://github.com/SAP/fundamental-styles/commit/6872819))
+
+
+
+<a name="0.4.0-rc.35"></a>
+# [0.4.0-rc.35](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.34...v0.4.0-rc.35) (2019-12-18)
+
+
+### Bug Fixes
+
+* change addon color, remove textareas with addons ([#522](https://github.com/SAP/fundamental-styles/issues/522)) ([e805b15](https://github.com/SAP/fundamental-styles/commit/e805b15))
+
+
+
+<a name="0.4.0-rc.34"></a>
+# [0.4.0-rc.34](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.33...v0.4.0-rc.34) (2019-12-18)
+
+
+
+<a name="0.4.0-rc.33"></a>
+# [0.4.0-rc.33](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.32...v0.4.0-rc.33) (2019-12-16)
+
+
+
+<a name="0.4.0-rc.32"></a>
+# [0.4.0-rc.32](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.31...v0.4.0-rc.32) (2019-12-16)
+
+
+### Bug Fixes
+
+* fix the alignemnt of the placeholder in inputs ([#521](https://github.com/SAP/fundamental-styles/issues/521)) ([4848048](https://github.com/SAP/fundamental-styles/commit/4848048))
+
+
+
+<a name="0.4.0-rc.31"></a>
+# [0.4.0-rc.31](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.30...v0.4.0-rc.31) (2019-12-16)
+
+
+
+<a name="0.4.0-rc.30"></a>
+# [0.4.0-rc.30](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.29...v0.4.0-rc.30) (2019-12-13)
+
+
+### Features
+
+* input group for checkbox/radio inline ([#451](https://github.com/SAP/fundamental-styles/issues/451)) ([fae280a](https://github.com/SAP/fundamental-styles/commit/fae280a))
+
+
+
+<a name="0.4.0-rc.29"></a>
+# [0.4.0-rc.29](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.28...v0.4.0-rc.29) (2019-12-13)
+
+
+
+<a name="0.4.0-rc.28"></a>
+# [0.4.0-rc.28](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.27...v0.4.0-rc.28) (2019-12-12)
+
+
+### Bug Fixes
+
+* valid state border, focus area on radios ([#511](https://github.com/SAP/fundamental-styles/issues/511)) ([af72354](https://github.com/SAP/fundamental-styles/commit/af72354))
+
+
+
+<a name="0.4.0-rc.27"></a>
+# [0.4.0-rc.27](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.26...v0.4.0-rc.27) (2019-12-11)
+
+
+
+<a name="0.4.0-rc.26"></a>
+# [0.4.0-rc.26](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.25...v0.4.0-rc.26) (2019-12-09)
+
+
+
 <a name="0.4.0-rc.25"></a>
 # [0.4.0-rc.25](https://github.com/SAP/fundamental-styles/compare/v0.4.0-rc.24...v0.4.0-rc.25) (2019-12-06)
 

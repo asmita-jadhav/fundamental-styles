@@ -30,7 +30,7 @@ $(document).ready(function () {
             var isAlert = this.parentElement.getAttribute("role") === "alert";
             if (isAlert) {
                 //remove or hide if we want some animation
-                target.remove();
+                $(target).remove();
                 return;
             }
             //dropdown
@@ -200,6 +200,11 @@ $(document).ready(function () {
         triStateCheckboxI7.indeterminate = true;
     }
 
+    const triStateCheckboxI8 = document.getElementById('Ai4ez6191');
+    if (triStateCheckboxI8) {
+      triStateCheckboxI8.indeterminate = true;
+    }
+
     // display responsive component controls
     const displayControls = document.querySelectorAll('.docs-component--responsive-display__controls');
 
@@ -233,5 +238,19 @@ $(document).ready(function () {
                 break;
         }
     }
-
 });
+
+function stepInputValue(inputId, stepDirection) {
+    let inputRef = document.getElementById(inputId);
+
+    if (inputRef) {
+        if(stepDirection === "up") {
+            ++inputRef.value;
+        } else if (stepDirection === "down") {
+            --inputRef.value;
+        }
+    } else {
+        console.warn("No element with id='" + inputId + "' found");
+    }
+}
+

@@ -74,21 +74,6 @@ The Input Group with text add-on component is typically used to specify the type
         <span class="fd-input-group__addon">.00</span>
     </div>
 </div>
-<br />
-<div class="fd-form-item">
-    <label class="fd-form-label" for="">Multiple Left and Right Aligned Text Add-ons</label>
-    <div class="fd-input-group">
-        <span class="fd-input-group__addon">
-            <span class="sap-icon--hide" role="presentation"></span>
-        </span>
-        <span class="fd-input-group__addon">$</span>
-        <input class="fd-input fd-input-group__input" type="text" id="" name="" value="This is a test">
-        <span class="fd-input-group__addon">.00</span>
-        <span class="fd-input-group__addon">
-            <span class="sap-icon--product" role="presentation"></span>
-        </span>
-    </div>
-</div>
 {% endcapture %}
 
 {% include display-component.html component=text-addon %}
@@ -181,44 +166,6 @@ The Input with add-on supports actions. Actions can be shown with a text label o
         <input class="fd-input fd-input-group__input" type="text" id="" name="" value="1000000">
     </div>
 </div>
-<br />
-<div class="fd-form-item">
-    <label class="fd-form-label" for="">Input with actions on left and on right</label>
-    <div class="fd-input-group">
-        <span class="fd-input-group__addon fd-input-group__addon--button">
-             <button class="fd-input-group__button fd-button--icon fd-button--light sap-icon--search"></button>
-        </span>
-        <span class="fd-input-group__addon fd-input-group__addon--button">
-            <button class="fd-input-group__button fd-button--icon fd-button--light sap-icon--cart"></button>
-        </span>
-        <input class="fd-input fd-input-group__input" type="text" id="" name="" value="1000000">
-        <span class="fd-input-group__addon fd-input-group__addon--button">
-            <button class="fd-input-group__button fd-button--light">Button</button>
-        </span>
-         <span class="fd-input-group__addon fd-input-group__addon--button">
-            <button class="fd-input-group__button fd-button--icon fd-button--light sap-icon--decline"></button>
-        </span>
-    </div>
-</div>
-<br />
-<div class="fd-form-item">
-    <label class="fd-form-label" for="">Input with mixed actions on left and on right</label>
-    <div class="fd-input-group">
-        <span class="fd-input-group__addon fd-input-group__addon--button">
-             <button class="fd-input-group__button fd-button--icon fd-button--light sap-icon--search"></button>
-        </span>
-        <span class="fd-input-group__addon fd-input-group__addon--button">
-            <button class="fd-input-group__button fd-button--icon fd-button--light sap-icon--cart"></button>
-        </span>
-        <input class="fd-input fd-input-group__input" type="text" id="" name="" value="1000000">
-        <span class="fd-input-group__addon fd-input-group__addon--button">
-            <button class="fd-input-group__button fd-button--light">Button</button>
-        </span>
-        <span class="fd-input-group__addon">
-            <span class="sap-icon--employee" role="presentation"></span>
-        </span>
-    </div>
-</div>
 {% endcapture %}
 
 {% include display-component.html component=button-addon %}
@@ -268,7 +215,7 @@ The Input with add-on supports actions. Actions can be shown with a text label o
     <label class="fd-form-label" for="">Disabled</label>
     <div class="fd-input-group is-disabled">
         <span class="fd-input-group__addon">$</span>
-        <input class="fd-input fd-input-group__input" type="text" id="" name="" placeholder="Enter a value">
+        <input class="fd-input fd-input-group__input" disabled type="text" id="" name="" placeholder="Enter a value">
     </div>
 </div>
 <br />
@@ -276,14 +223,14 @@ The Input with add-on supports actions. Actions can be shown with a text label o
     <label class="fd-form-label" for="">Disabled Valid (Success)</label>
     <div class="fd-input-group is-valid is-disabled">
         <span class="fd-input-group__addon">$</span>
-        <input class="fd-input fd-input-group__input" type="text" id="" name="" value="1234568910">
+        <input class="fd-input fd-input-group__input" disabled type="text" id="" name="" value="1234568910">
     </div>
 </div>
 <br />
 <div class="fd-form-item">
     <label class="fd-form-label" for="">Disabled Invalid (Error)</label>
     <div class="fd-input-group is-invalid is-disabled">
-        <input class="fd-input fd-input-group__input" type="text" id="" name="" value="1000000">
+        <input class="fd-input fd-input-group__input" disabled type="text" id="" name="" value="1000000">
         <span class="fd-input-group__addon">
             <span class="sap-icon--hide" role="presentation"></span>
         </span>
@@ -294,16 +241,16 @@ The Input with add-on supports actions. Actions can be shown with a text label o
     <label class="fd-form-label" for="">Disabled Warning (Alert)</label>
     <div class="fd-input-group is-warning is-disabled">
         <span class="fd-input-group__addon">$</span>
-        <input class="fd-input fd-input-group__input" type="text" id="" name="" value="1234568910">
+        <input class="fd-input fd-input-group__input" disabled type="text" id="" name="" value="1234568910">
     </div>
 </div>
 <br />
 <div class="fd-form-item">
     <label class="fd-form-label" for="">Disabled Information</label>
     <div class="fd-input-group is-information is-disabled">
-        <input class="fd-input fd-input--compact fd-input-group__input" type="text" id="" name="" value="1000000">
+        <input class="fd-input fd-input--compact fd-input-group__input" disabled type="text" id="" name="" value="1000000">
         <span class="fd-input-group__addon fd-input-group__addon--compact fd-input-group__addon--button">
-            <button class="fd-input-group__button fd-button--light fd-button--compact">
+            <button class="fd-input-group__button fd-button--light fd-button--compact" disabled>
                 Button
             </button>
         </span>
@@ -313,59 +260,30 @@ The Input with add-on supports actions. Actions can be shown with a text label o
 
 {% include display-component.html component=states %}
 
+## Focus
 
-## Textareas
-
-{% capture button-addon %}
+The Input Group supports **focus** state, it can be added by putting `.is-focus` class to component.
+{% capture focus %}
 <div class="fd-form-item">
-    <label class="fd-form-label" for="">Textarea with text add-on</label>
-    <div class="fd-input-group">
-        <textarea class="fd-textarea fd-input-group__input" id=""></textarea>
+    <label class="fd-form-label" for="">Default</label>
+    <div class="fd-input-group is-focus">
+        <span class="fd-input-group__addon">$</span>
+        <input class="fd-input fd-input-group__input" type="text" id="" name="" value="1234568910">
+    </div>
+</div>
+<br />
+<div class="fd-form-item">
+    <label class="fd-form-label" for="">Error State</label>
+    <div class="fd-input-group is-invalid is-focus">
+        <input class="fd-input fd-input-group__input" type="text" id="" name="" value="1000000">
         <span class="fd-input-group__addon">
-            km/h
-        </span>
-    </div>
-</div>
-<br />
-<div class="fd-form-item">
-    <label class="fd-form-label" for="">Textarea with action</label>
-    <div class="fd-input-group">
-        <textarea class="fd-textarea fd-input-group__input" id=""></textarea>
-        <span class="fd-input-group__addon fd-input-group__addon--button">
-            <button class="fd-input-group__button fd-button--light">
-                Button
-            </button>
-        </span>
-    </div>
-</div>
-<br />
-<div class="fd-form-item">
-    <label class="fd-form-label" for="">Compact textarea with action</label>
-    <div class="fd-input-group is-valid">
-        <textarea class="fd-textarea fd-textarea--compact fd-input-group__input" id=""></textarea>
-        <span class="fd-input-group__addon fd-input-group__addon--button">
-            <button class="fd-input-group__button fd-button--light">
-                Button
-            </button>
-        </span>
-    </div>
-</div>
-<br />
-<div class="fd-form-item">
-    <label class="fd-form-label" for="">Compact textarea with action</label>
-    <div class="fd-input-group is-invalid">
-        <textarea class="fd-textarea fd-textarea--compact fd-input-group__input" id=""></textarea>
-        <span class="fd-input-group__addon fd-input-group__addon--button">
-            <button class="fd-input-group__button fd-button--light">
-                Button
-            </button>
+            <span class="sap-icon--hide" role="presentation"></span>
         </span>
     </div>
 </div>
 {% endcapture %}
 
-{% include display-component.html component=button-addon %}
-
+{% include display-component.html component=focus %}
 
 ## Number input
 
@@ -377,8 +295,8 @@ For an integer value input, a spinner can be added allowing the user to increase
     <div class="fd-input-group">
         <input class="fd-input fd-input--no-number-spinner fd-input-group__input" id="spinner-1" type="number" value="100" />
         <span class="fd-input-group__addon fd-input-group__addon--button">
-            <button class="fd-input-group__button fd-button--light fd-button--half sap-icon--slim-arrow-up" aria-label="Step up" onclick="document.getElementById('spinner-1').stepUp();"></button>
-            <button class="fd-input-group__button fd-button--light fd-button--half sap-icon--slim-arrow-down" aria-label="Step down" onclick="document.getElementById('spinner-1').stepDown();"></button>
+            <button class="fd-input-group__button fd-button--light fd-button--half sap-icon--slim-arrow-up" aria-label="Step up" onclick="stepInputValue('spinner-1', 'up');"></button>
+            <button class="fd-input-group__button fd-button--light fd-button--half sap-icon--slim-arrow-down" aria-label="Step down" onclick="stepInputValue('spinner-1', 'down');"></button>
         </span>
     </div>
 </div>
