@@ -233,7 +233,7 @@ This are classes used to describe the look of calendar grid element.
     <header class="fd-calendar__header">
         <div class="fd-calendar__navigation">
 			<div class="fd-calendar__action fd-calendar__action--arrow-left">
-    			<button type="button" class="fd-button--standard fd-button--light sap-icon--slim-arrow-left" aria-label="Previous"></button>
+    			<button type="button" class="fd-button--light sap-icon--slim-arrow-left" aria-label="Previous"></button>
     		</div>
     		<div class="fd-calendar__action">
     			<button type="button" class="fd-button--light" aria-selected="false" aria-expanded="false" aria-controls="fm3cr569">January</button>
@@ -242,7 +242,7 @@ This are classes used to describe the look of calendar grid element.
     			<button type="button" class="fd-button--light" aria-selected="true" aria-expanded="true" aria-controls="bufLe361">2018</button>
     		</div>
     		<div class="fd-calendar__action fd-calendar__action--arrow-right">
-    			<button type="button" class="fd-button--standard fd-button--light sap-icon--slim-arrow-right" aria-label="Next"></button>
+    			<button type="button" class="fd-button--light sap-icon--slim-arrow-right" aria-label="Next"></button>
     		</div>
         </div>
     </header>
@@ -362,7 +362,7 @@ This are classes used to describe the look of calendar grid element.
     <header class="fd-calendar__header">
         <div class="fd-calendar__navigation">
             <div class="fd-calendar__action fd-calendar__action--arrow-left">
-                <button type="button" class="fd-button--standard fd-button--light sap-icon--slim-arrow-left" aria-label="Previous"></button>
+                <button type="button" class="fd-button--light sap-icon--slim-arrow-left" aria-label="Previous"></button>
             </div>
             <div class="fd-calendar__action">
                 <button type="button" class="fd-button--light" aria-selected="false" aria-expanded="false" aria-controls="fm3cr569">January</button>
@@ -371,7 +371,7 @@ This are classes used to describe the look of calendar grid element.
                 <button type="button" class="fd-button--light" aria-selected="true" aria-expanded="true" aria-controls="bufLe361">2018</button>
             </div>
             <div class="fd-calendar__action fd-calendar__action--arrow-right">
-                <button type="button" class="fd-button--standard fd-button--light sap-icon--slim-arrow-right" aria-label="Next"></button>
+                <button type="button" class="fd-button--light sap-icon--slim-arrow-right" aria-label="Next"></button>
             </div>
         </div>
     </header>
@@ -424,7 +424,7 @@ This are classes used to describe the look of calendar grid element.
     <header class="fd-calendar__header">
         <div class="fd-calendar__navigation">
 			<div class="fd-calendar__action fd-calendar__action--arrow-left">
-    			<button type="button" class="fd-button--standard fd-button--light sap-icon--slim-arrow-left" aria-label="Previous"></button>
+    			<button type="button" class="fd-button--light sap-icon--slim-arrow-left" aria-label="Previous"></button>
     		</div>
     		<div class="fd-calendar__action">
     			<button type="button" class="fd-button--light" aria-selected="false" aria-expanded="false" aria-controls="fm3cr569">January</button>
@@ -433,7 +433,7 @@ This are classes used to describe the look of calendar grid element.
     			<button type="button" class="fd-button--light" aria-selected="true" aria-expanded="true" aria-controls="bufLe361">2018</button>
     		</div>
     		<div class="fd-calendar__action fd-calendar__action--arrow-right">
-    			<button type="button" class="fd-button--standard fd-button--light sap-icon--slim-arrow-right" aria-label="Next"></button>
+    			<button type="button" class="fd-button--light sap-icon--slim-arrow-right" aria-label="Next"></button>
     		</div>
         </div>
     </header>
@@ -485,16 +485,16 @@ This are classes used to describe the look of calendar grid element.
     <header class="fd-calendar__header">
         <div class="fd-calendar__navigation">
 			<div class="fd-calendar__action fd-calendar__action--arrow-left">
-    			<button type="button" class="fd-button--standard fd-button--light sap-icon--slim-arrow-left" aria-label="Previous"></button>
+    			<button type="button" class="fd-button--compact fd-button--light sap-icon--slim-arrow-left" aria-label="Previous"></button>
     		</div>
     		<div class="fd-calendar__action">
-    			<button type="button" class="fd-button--light" aria-selected="false" aria-expanded="false" aria-controls="fm3cr569">January</button>
+    			<button type="button" class="fd-button--compact fd-button--light" aria-selected="false" aria-expanded="false" aria-controls="fm3cr569">January</button>
     		</div>
     		<div class="fd-calendar__action">
-    			<button type="button" class="fd-button--light" aria-selected="true" aria-expanded="true" aria-controls="bufLe361">2018</button>
+    			<button type="button" class="fd-button--compact fd-button--light" aria-selected="true" aria-expanded="true" aria-controls="bufLe361">2018</button>
     		</div>
     		<div class="fd-calendar__action fd-calendar__action--arrow-right">
-    			<button type="button" class="fd-button--standard fd-button--light sap-icon--slim-arrow-right" aria-label="Next"></button>
+    			<button type="button" class="fd-button--compact fd-button--light sap-icon--slim-arrow-right" aria-label="Next"></button>
     		</div>
         </div>
     </header>
@@ -614,7 +614,7 @@ Calendar should be opened inside dialog component.
     <header class="fd-calendar__header">
         <div class="fd-calendar__navigation">
             <div class="fd-calendar__action fd-calendar__action--arrow-left">
-                <button type="button" class="fd-button--standard fd-button--light sap-icon--slim-arrow-left" aria-label="Previous"></button>
+                <button type="button" class="fd-button--light sap-icon--slim-arrow-left" aria-label="Previous"></button>
             </div>
             <div class="fd-calendar__action">
                 <button type="button" class="fd-button--light" aria-selected="false" aria-expanded="false" aria-controls="fm3cr569">January</button>
@@ -623,10 +623,10 @@ Calendar should be opened inside dialog component.
                 <button type="button" class="fd-button--light" aria-selected="false" aria-expanded="false" aria-controls="bufLe361">2018</button>
             </div>
             <div class="fd-calendar__action fd-calendar__action--arrow-right">
-                <button type="button" class="fd-button--standard fd-button--light sap-icon--slim-arrow-right" aria-label="Next"></button>
+                <button type="button" class="fd-button--light sap-icon--slim-arrow-right" aria-label="Next"></button>
             </div>
         </div>
-        <button type="button" class="fd-button fd-button--light fd-button--compact fd-calendar__close-button" aria-controls="ZvPBg609" aria-label="Close"></button>
+        <button type="button" class="fd-button--light fd-calendar__close-button" aria-controls="ZvPBg609" aria-label="Close"></button>
     </header>
 
     <div class="fd-calendar__content fd-calendar__content--dates" id="Xh8Gr283">
