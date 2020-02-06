@@ -1,0 +1,128 @@
+@import "./settings";
+@import "./mixins";
+@import "./functions";
+
+/*!
+.fd-badge+(( --success | --warning | --error ), (--pill | --filled))
+*/
+$block: #{$fd-namespace}-info-label;
+
+.#{$block} {
+  /*!
+  the below hardcoded colour values will be changed once we recieve variable creation from the fundamental team
+  */
+  $sapAccend1: #fdf3e6;
+  $sapAccend2: #f9e6e6;
+  $sapAccend3: #fce9f2;
+  $sapAccend4: #f9ebf5;
+  $sapAccend5: #eaeafa;
+  $sapAccend6: #ebf3fa;
+  $sapAccend7: #e8fafd;
+  $sapAccend8: #f8fde7;
+  $sapAccend9: #f2ebf9;
+  $sapAccend10: #f1f3f4;
+
+  $fd-sap-accent-color1: var(--sapAccentColor1) !default;
+  $fd-sap-accent-color2: var(--sapAccentColor2) !default;
+  $fd-sap-accent-color3: var(--sapAccentColor3) !default;
+  $fd-sap-accent-color4: var(--sapAccentColor4) !default;
+  $fd-sap-accent-color5: var(--sapAccentColor5) !default;
+  $fd-sap-accent-color6: var(--sapAccentColor6) !default;
+  $fd-sap-accent-color7: var(--sapAccentColor7) !default;
+  $fd-sap-accent-color8: var(--sapAccentColor8) !default;
+  $fd-sap-accent-color9: var(--sapAccentColor9) !default;
+  $fd-sap-accent-color10: var(--sapAccentColor10) !default;
+
+  $fd-infolabel-border-radius: 1.125rem !default;
+  $fd-infolabel-color: var(--sapTextColor);
+  $fd-infolabel-margin-compact: 0.4375rem 0 !default;
+  $fd-infolable-margin-cozy: 0.8125rem 0 !default;
+  $fd-infolabel-fontsize: var(--sapFontSmallSize);
+
+  @include fd-reset();
+
+  vertical-align: middle;
+  padding: 0 0.625rem;
+  border-radius: $fd-infolabel-border-radius;
+  border-width: 1px;
+  border-style: solid;
+  min-width: fit-content;
+  height: 1.125rem;
+  text-transform: uppercase;
+  text-align: center;
+  color: $fd-infolabel-color;
+  font-size: $fd-infolabel-fontsize;
+
+  &::before {
+    font-size: 0.75rem;
+    padding-left: 0.3125rem;
+    padding-right: 0.1875rem;
+    color: $fd-infolabel-color;
+  }
+
+  &--numeric {
+    padding: 0 0.312rem;
+  }
+
+  &--icon {
+    padding: 0 0.5rem;
+  }
+
+  &--compact {
+    margin: $fd-infolabel-margin-compact;
+  }
+
+  &--cozy {
+    margin: $fd-infolable-margin-cozy;
+  }
+
+  &--accentcolor1 {
+    background-color: $sapAccend1;
+    border-color: $fd-sap-accent-color1;
+  }
+
+  &--accentcolor2 {
+    background-color: $sapAccend2;
+    border-color: $fd-sap-accent-color2;
+  }
+
+  &--accentcolor3 {
+    background-color: $sapAccend3;
+    border-color: $fd-sap-accent-color3;
+  }
+
+  &--accentcolor4 {
+    background-color: $sapAccend4;
+    border-color: $fd-sap-accent-color4;
+  }
+
+  &--accentcolor5 {
+    background-color: $sapAccend5;
+    border-color: $fd-sap-accent-color5;
+  }
+
+  &--accentcolor6 {
+    background-color: $sapAccend6;
+    border-color: $fd-sap-accent-color6;
+  }
+
+  &--accentcolor7 {
+    background-color: $sapAccend7;
+    border-color: $fd-sap-accent-color7;
+  }
+
+  &--accentcolor8 {
+    background-color: $sapAccend8;
+    border-color: $fd-sap-accent-color8;
+  }
+
+  &--accentcolor9 {
+    background-color: $sapAccend9;
+    border-color: $fd-sap-accent-color9;
+  }
+
+  &--accentcolor10 {
+    background-color: $sapAccend10;
+    border-color: $fd-sap-accent-color10;
+  }
+}

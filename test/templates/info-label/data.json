@@ -1,0 +1,25 @@
+{
+    "id": "infolabel",
+    "name": "InfoLabel",
+    "properties": {
+        "label": "Info Label"
+    },
+    "modifier": {
+        "block": [
+            "numeric",
+            "icon",
+            "compact",
+            "cozy",
+			"accentcolor1",
+			"accentcolor2",
+			"accentcolor3",
+			"accentcolor4",
+			"accentcolor5",
+			"accentcolor6",
+			"accentcolor7",
+			"accentcolor8",
+			"accentcolor9",
+			"accentcolor10"
+        ]
+    }
+}

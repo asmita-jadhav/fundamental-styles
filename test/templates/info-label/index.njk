@@ -1,0 +1,101 @@
+{% extends "layout.njk" %}
+{% from "./../format.njk" import format %}
+{% from "./component.njk" import infolabel %}
+
+{% block content %}
+
+
+<h2>Numeric</h2>
+    <!-- output the component example and the code snippet -->
+    {% set example %}
+{{  infolabel({label: "6"},
+        modifier={block: ["numeric","accentcolor1"]})
+}}
+{{  infolabel({label: "9.2"},
+        modifier={block: ["numeric","accentcolor2"]})
+}}
+{{  infolabel({label: "42k"},
+        modifier={block: ["numeric","accentcolor3"]})
+}}
+{{  infolabel({label: "Default"},
+        modifier={block: ["accentcolor3"]})
+}} 
+    {% endset %}
+    {{ format(example) }}
+<br><br>
+
+    <h2>Info Label Color Options</h2>
+
+    {% set example %}
+{{  infolabel({label: "Info Label"},
+        modifier={block: ["accentcolor1"]})
+}}
+{{  infolabel({label: "Info Label"},
+        modifier={block: ["accentcolor2"]})
+}}
+{{  infolabel({label: "Info Label"},
+        modifier={block: ["accentcolor3"]})
+}}
+{{  infolabel({label: "Info Label"},
+        modifier={block: ["accentcolor4"]})
+}}
+{{  infolabel({label: "Info Label"},
+        modifier={block: ["accentcolor5"]})
+}}
+{{  infolabel({label: "Info Label"},
+        modifier={block: ["accentcolor6"]})
+}}
+{{  infolabel({label: "Info Label"},
+        modifier={block: ["accentcolor7"]})
+}}
+{{  infolabel({label: "Info Label"},
+        modifier={block: ["accentcolor8"]})
+}}
+{{  infolabel({label: "Info Label"},
+        modifier={block: ["accentcolor9"]})
+}}
+{{  infolabel({label: "Info Label"},
+        modifier={block: ["accentcolor10"]})
+}}
+
+    {% endset %}
+    {{ format(example) }}
+
+<br><br>
+    <h2>Info Label Color Options and Icons</h2>
+
+    {% set example %}
+{{  infolabel({label: "Info Label",icon: 'future'},
+        modifier={block: ["accentcolor1","icon"]})
+}}
+{{  infolabel({label: "Info Label",icon: 'add-activity-2'},
+        modifier={block: ["accentcolor2","icon"]})
+}}
+{{  infolabel({label: "Info Label",icon: 'bar-code'},
+        modifier={block: ["accentcolor3","icon"]})
+}}
+{{  infolabel({label: "Info Label",icon: 'time-entry-request'},
+        modifier={block: ["accentcolor4","icon"]})
+}}
+{{  infolabel({label: "Info Label",icon: 'bubble-chart'},
+        modifier={block: ["accentcolor5","icon"]})
+}}
+{{  infolabel({label: "Info Label",icon: 'hide'},
+        modifier={block: ["accentcolor6","icon"]})
+}}
+{{  infolabel({label: "Info Label",icon: 'key'},
+        modifier={block: ["accentcolor7","icon"]})
+}}
+{{  infolabel({label: "Info Label",icon: 'technical-object'},
+        modifier={block: ["accentcolor8","icon"]})
+}}
+{{  infolabel({label: "Info Label",icon: 'upload-to-cloud'},
+        modifier={block: ["accentcolor9","icon"]})
+}}
+{{  infolabel({label: "Info Label",icon: 'upload-to-cloud'},
+        modifier={block: ["accentcolor10","icon"]})
+}}
+    {% endset %}
+    {{ format(example) }}
+
+{% endblock %}
