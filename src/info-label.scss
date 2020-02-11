@@ -9,31 +9,33 @@ $block: #{$fd-namespace}-info-label;
 
 .#{$block} {
 
-  // INFOLABEL DEFAULT
-  $fd-infolabel-border-radius: 1.125rem !default;
-  $fd-infolabel-color: var(--sapTextColor);
-  $fd-infolabel-fontsize: var(--sapFontSmallSize);
-  $fd-infolabel-default-padding: 0 0.625rem !default;
-  $fd-infolabel-default-vertical-align: middle !default;
-  $fd-infolabel-default-border-width: 1px !default;
-  $fd-infolabel-default-border-style: solid !default;
-  $fd-infolabel-default-min-width: fit-content !default;
-  $fd-infolabel-default-height: 1.125rem !default;
-  $fd-infolabel-default-text-transform: uppercase !default;
-  $fd-infolabel-default-text-align: center !default;
+  // info-label DEFAULT
+  $fd-info-label-border-radius: 1.125rem !default;
+  $fd-info-label-color: var(--sapTextColor);
+  $fd-info-label-fontsize: var(--sapFontSmallSize);
+  $fd-info-label-default-padding: 0 0.625rem !default;
+  $fd-info-label-default-vertical-align: middle !default;
+  $fd-info-label-default-border-width: 1px !default;
+  $fd-info-label-default-border-style: solid !default;
+  $fd-info-label-default-height: 1.125rem !default;
+  $fd-info-label-default-text-transform: uppercase !default;
+  $fd-info-label-default-text-align: center !default;
+  $fd-info-label-default-letter-spacing: 0.0125rem !default;
+  $fd-info-label-default-display: inline-block !default;
+  $fd-info-label-default-text-padding-right: 0.3125rem !default;
 
   // INFOLABEL ICON
-  $fd-infolabel-icon-size: 0.75rem !default;
-  $fd-infolabel-icon-padding-left: 0.3125rem !default;
-  $fd-infolabel-icon-padding-right: 0.1875rem !default;
-  $fd-infolabel-icon-padding: 0 0.5rem !default;
+  $fd-info-label-icon-size: 0.625rem !default;
+  $fd-info-label-icon-padding-left: 0.3125rem !default;
+  $fd-info-label-icon-padding-right: 0.1875rem !default;
+  $fd-info-label-icon-padding: 0 0.5rem !default;
 
   // INFOLABEL NUMERIC PADDING
-  $fd-infolabel-numeric-padding: 0 0.3125rem !default;
+  $fd-info-label-numeric-padding: 0 0.3125rem !default;
 
   // COZY AND COMPACT MARGIN
-  $fd-infolabel-margin-compact: 0.4375rem 0 !default;
-  $fd-infolable-margin-cozy: 0.8125rem 0 !default;
+  $fd-info-label-margin-compact: 0.4375rem 0 !default;
+  $fd-info-lable-margin-cozy: 0.8125rem 0 !default;
 
   $color-accents: (
     "1": ("background": #fdf3e6, "border": var(--sapAccentColor1)),
@@ -50,39 +52,41 @@ $block: #{$fd-namespace}-info-label;
 
   @include fd-reset();
 
-  vertical-align: $fd-infolabel-default-vertical-align;
-  padding: $fd-infolabel-default-padding;
-  border-radius: $fd-infolabel-border-radius;
-  border-width: $fd-infolabel-default-border-width;
-  border-style: $fd-infolabel-default-border-style;
-  min-width: $fd-infolabel-default-min-width;
-  height: $fd-infolabel-default-height;
-  text-transform: $fd-infolabel-default-text-transform;
-  text-align: $fd-infolabel-default-text-align;
-  color: $fd-infolabel-color;
-  font-size: $fd-infolabel-fontsize;
+  vertical-align: $fd-info-label-default-vertical-align;
+  padding: $fd-info-label-default-padding;
+  border-radius: $fd-info-label-border-radius;
+  border-width: $fd-info-label-default-border-width;
+  border-style: $fd-info-label-default-border-style;
+  height: $fd-info-label-default-height;
+  text-transform: $fd-info-label-default-text-transform;
+  text-align: $fd-info-label-default-text-align;
+  color: $fd-info-label-color;
+  font-size: $fd-info-label-fontsize;
+  letter-spacing: $fd-info-label-default-letter-spacing;
+  display: $fd-info-label-default-display;
 
   &::before {
-    font-size: $fd-infolabel-icon-size;
-    padding-left: $fd-infolabel-icon-padding-left;
-    padding-right: $fd-infolabel-icon-padding-right;
-    color: $fd-infolabel-color;
+    font-size: $fd-info-label-icon-size;
+    padding-right: $fd-info-label-icon-padding-right;
+    color: $fd-info-label-color;
   }
 
   &--numeric {
-    padding: $fd-infolabel-numeric-padding;
+    padding: $fd-info-label-numeric-padding;
   }
 
   &--icon {
-    padding: $fd-infolabel-icon-padding;
+    size: $fd-info-label-icon-size;
+    padding-left: $fd-info-label-icon-padding-left;
+    padding-right: $fd-info-label-default-text-padding-right;
   }
 
   &--compact {
-    margin: $fd-infolabel-margin-compact;
+    margin: $fd-info-label-margin-compact;
   }
 
   &--cozy {
-    margin: $fd-infolable-margin-cozy;
+    margin: $fd-info-lable-margin-cozy;
   }
 
   @each $set-name, $color-set in $color-accents {
