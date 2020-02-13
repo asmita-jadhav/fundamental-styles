@@ -15,19 +15,20 @@ $block: #{$fd-namespace}-info-label;
   $fd-info-label-fontsize: var(--sapFontSmallSize);
   $fd-info-label-default-padding: 0 0.625rem !default;
   $fd-info-label-default-vertical-align: middle !default;
-  $fd-info-label-default-border-width: 1px !default;
+  $fd-info-label-default-border-width: 0.063rem !default;
   $fd-info-label-default-border-style: solid !default;
   $fd-info-label-default-height: 1.125rem !default;
   $fd-info-label-default-text-transform: uppercase !default;
   $fd-info-label-default-text-align: center !default;
   $fd-info-label-default-letter-spacing: 0.0125rem !default;
   $fd-info-label-default-display: inline-block !default;
-  $fd-info-label-default-text-padding-right: 0.3125rem !default;
+  $fd-info-label-default-text-padding-right: 0.1875rem !default;
+  $fd-info-label-default-text-padding-left: 0.3125rem !default;
 
   // INFOLABEL ICON
-  $fd-info-label-icon-size: 0.625rem !default;
+  $fd-info-label-icon-size: 0.75rem !default;
   $fd-info-label-icon-padding-left: 0.3125rem !default;
-  $fd-info-label-icon-padding-right: 0.1875rem !default;
+  $fd-info-label-icon-padding-right: 0.3125rem !default;
   $fd-info-label-icon-padding: 0 0.5rem !default;
 
   // INFOLABEL NUMERIC PADDING
@@ -65,20 +66,36 @@ $block: #{$fd-namespace}-info-label;
   letter-spacing: $fd-info-label-default-letter-spacing;
   display: $fd-info-label-default-display;
 
-  &::before {
-    font-size: $fd-info-label-icon-size;
-    padding-right: $fd-info-label-icon-padding-right;
-    color: $fd-info-label-color;
-  }
-
   &--numeric {
     padding: $fd-info-label-numeric-padding;
   }
 
   &--icon {
     size: $fd-info-label-icon-size;
-    padding-left: $fd-info-label-icon-padding-left;
-    padding-right: $fd-info-label-default-text-padding-right;
+    padding: 0 $fd-info-label-icon-padding-right 0 $fd-info-label-icon-padding-right;
+
+    @include fd-rtl() {
+      &:empty {
+        padding: 0 $fd-info-label-icon-padding-right 0 $fd-info-label-icon-padding-right;
+      }
+
+      &::before {
+        padding-left: $fd-info-label-default-text-padding-right;
+        padding-right: 0;
+      }
+    }
+
+    &::before {
+      padding-right: $fd-info-label-default-text-padding-right;
+    }
+
+    &:empty {
+      padding: 0 $fd-info-label-icon-padding-right 0 $fd-info-label-icon-padding-right;
+    }
+  }
+
+  &--only-icon {
+    padding: 0 $fd-info-label-icon-padding-right 0 $fd-info-label-icon-padding-left;
   }
 
   &--compact {

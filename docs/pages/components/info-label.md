@@ -84,7 +84,7 @@ In addition the the default grey, there are additional Semantic color options av
 <br><br>
 <span class="fd-info-label fd-info-label--accent-color-9 fd-info-label--icon sap-icon--upload-to-cloud">Info Label</span>
 <br><br>
-<span class="fd-info-label fd-info-label--accent-color-10 fd-info-label--icon sap-icon--upload-to-cloud">Info Label</span>
+<span class="fd-info-label fd-info-label--accent-color-10 fd-info-label--only-icon sap-icon--upload-to-cloud"></span>
 
 {% endcapture %}
 {% include display-component.html component=info-label %}
